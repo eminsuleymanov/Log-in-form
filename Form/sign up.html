@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body style="background-image:linear-gradient(to right,#003973,#E5E5BE)">
+    <form style="background-color: #fff;border-radius: 15px;width:35%;margin: 5rem auto 0;padding: 16px; text-align:center;" >
+        <h3 style="color: rgb(33, 95, 210); font-size: 40px">Sign up</h3>
+        <input required type="text" autofocus placeholder="First Name" style="width:90%;outline:none;padding-left: 10px; height: 50px;font-size: 20px; border-radius: 5px; border: 1px solid grey;" >
+        <input required type="text" placeholder="Last Name" style="width:90%;outline:none;padding-left: 10px; height: 50px;font-size: 20px; border-radius: 5px; border: 1px solid grey;margin: 20px;" >
+        <input required type="text" placeholder="Email or phone number" style="width:90%;outline:none;padding-left: 10px; height: 50px;font-size: 20px; border-radius: 5px; border: 1px solid grey;" >
+        <input required type="password" placeholder="New password" minlength="8" maxlength="14" style="width:90%;outline:none;padding-left: 10px; height: 50px; ;font-size: 20px; border-radius: 5px; border: 1px solid grey;margin: 20px;">
+        <h2>Birthday:
+            <input required type="datetime-local" id="Test_DatetimeLocal">
+        </h2>
+        <h2>Gender:
+            <h4 >
+                Male
+                <input required type="radio" class="choice" name="sex" id="" value="1">
+                Female
+                <input  type="radio" class="choice" name="sex" id="" value="2">
+                Custom
+                <input type="radio" class="choice" name="sex" id="" value="3">
+            </h4>
+        </h2>
+        <button style="color:#fff; background-color: #00a400; border: none; border-radius: 6px;font-size: 18px; height: 36px;padding: 0 32px;">Sign up</button>
+
+        
+    </form>
+</body>
+</html>
